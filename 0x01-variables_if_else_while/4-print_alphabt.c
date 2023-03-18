@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
-  *main - prints the alphabet in lower case
-  *followed by a new line,
-  *except q and a
-  *Return: 0
+  * main - prints the alphabet in lower case
+  * followed by a new line,
+  * except q and a
+  * Return: 0
   */
 int main(void)
 {
@@ -12,10 +12,10 @@ int main(void)
 	for (la = 'a'; la <= 'z'; la++)
 	{
 		if (la != 'e' && la != 'q')
-			putcha(la);
+			putchar(la);
 	}
 
 	putchar('\n');
-	
+
 	return (0);
 }
