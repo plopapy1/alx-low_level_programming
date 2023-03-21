@@ -1,13 +1,11 @@
-#include "main.h"
-	/**
-	 * main - print _putchar
-	 * writen by plopapy
-	 * Return: 0
-	 */
+#include <main.h>
+/**
+  * main - print putcar
+  * Return: 0
+  */
 
-
-	int main(void)
-	{
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -18,5 +16,5 @@
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-	}
 
+}
