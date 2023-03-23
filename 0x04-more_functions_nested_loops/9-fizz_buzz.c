@@ -11,16 +11,16 @@ int main(void)
 	char b[] = "Buzz"
 	char ab[] = "FizzBuzz"
 
-	for (i = 1; 1 <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i == 100)
-			printf("%s", b);
+			printf("%s ", b);
 		else if ((i % 3 == 0) && (i % 5 == 0))
-			 printf("%s", ab);
+			 printf("%s ", ab);
 		else if (i % 3 == 0)
-			printf("%s", a);
+			printf("%s ", a);
 		else if (i % 5 == 0)
-			 printf("%s", b);
+			 printf("%s ", b);
 		else
 			printf("%s", i);
 	}
