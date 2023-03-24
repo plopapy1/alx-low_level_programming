@@ -4,11 +4,13 @@
   * print_triangle - print a triangle of sqaure
   * @size: The size of the square triangle
   * Return: empty
+  *
+  *
+  *
   */
 
 void print_triangle(int size)
 {
-
 	int x, y, z;
 
 	if (size <= 0)
@@ -27,8 +29,7 @@ void print_triangle(int size)
 	{
 	_putchar(35);
 	}
-	_putchaar('\n');
+	_putchar('\n');
 	}
 	}
-
 }
