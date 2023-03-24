@@ -1,16 +1,18 @@
+#include "main.h"
 #include <stdio.h>
 /**
-  * main - entry point
-  * Return: 0
-  *
+  * main - print a Fizz buzz
+  * Return: always return 0
   */
+
 int main(void)
 {
+
 	int x;
 
 	for (x = 1; x <= 100; x++)
 	{
-	if ((x % == 0) && (x % 5 == 0))
+	if ((x % 3 == 0) && (x % 5 == 0))
 	{
 	printf("FizzBuzz");
 	}
