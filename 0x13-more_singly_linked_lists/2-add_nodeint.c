@@ -5,7 +5,7 @@
  *              beginning of a list
  *
  * @head: pointer to the first node
- * @s: integer n to add in a new node
+ * @n: integer n to add in a new node
  *
  * Return: address of the new element or NULL if it fails
  */
