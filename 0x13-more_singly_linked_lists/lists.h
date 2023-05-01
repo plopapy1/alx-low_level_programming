@@ -6,15 +6,14 @@
 
 /**
  * struct listint_s - singly linked list
- * @n: integer
+ * @i: integer
  * @next: points to the next node
- *
  * Description: singly linked list node structure
  * for Holberton project
  */
 typedef struct listint_s
 {
-	int n;
+	int i;
 	struct listint_s *next;
 } listint_t;
 
@@ -22,7 +21,6 @@ typedef struct listint_s
  * struct listp_s - singly linked list
  * @p: pointers of nodes
  * @next: points to the next node
- *
  * Description: singly linked list of pointers
  */
 typedef struct listp_s
