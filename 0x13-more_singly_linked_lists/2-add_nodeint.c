@@ -5,12 +5,12 @@
  *              beginning of a list
  *
  * @head: pointer to the first node
- * @s: integer n to add in a new node
+ * @n: integer n to add in a new node
  *
  * Return: address of the new element or NULL if it fails
  */
 
-listint_t *add_nodeint(listint_t **head, const int s)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new_node;
 
@@ -24,7 +24,7 @@ listint_t *add_nodeint(listint_t **head, const int s)
 	else
 		new_node->next = *head;
 
-	new_node->s = s;
+	new_node->n = n;
 	/*add new node at the beginning of the list*/
 	*head = new_node;
 
